@@ -7,7 +7,6 @@ public class GameScene : MonoBehaviour {
         for(int x = -100; x < 100; ++x)
         {
             int height = (int)((Perlin.Noise(x / 200.0f) + 1.0f) * 30);
-            print(height);
             for (int y = 0; y < height; ++y)
             {
                 GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
