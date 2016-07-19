@@ -6,7 +6,7 @@ public class GameCamera : MonoBehaviour {
     private float speedX, speedY;
     // Use this for initialization
     void Start () {
-        player.transform.position = new Vector3(0, 5.5f, 0);
+        player.transform.position = new Vector3(0, 35.5f, 0);
         speedX = 0;
         speedY = 0;
 	}
